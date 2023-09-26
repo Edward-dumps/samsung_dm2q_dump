@@ -1,0 +1,18 @@
+{
+    "Resources": [
+      {
+        "Name": "CPUMaxFreq",
+        "FreqTablePath" : "/sys/devices/system/cpu/cpufreq_limit/cpufreq_table",
+        "BoostPath" : "/sys/devices/system/cpu/cpufreq_limit/cpufreq_max_limit",
+        "HighFreqLimitNum": "6",
+        "LowFreqLimitNum": "8"
+      },
+      {
+        "Name": "CPUMinFreq",
+        "FreqTablePath" : "/sys/devices/system/cpu/cpufreq_limit/cpufreq_table",
+        "BoostPath" : "/sys/devices/system/cpu/cpufreq_limit/cpufreq_min_limit",
+        "HighFreqLimitNum": "6",
+        "LowFreqLimitNum": "8"
+      }
+    ]
+}
